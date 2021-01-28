@@ -1,0 +1,66 @@
+:root{
+    --verde: #32CD32;
+    --preto: #141414;
+    --cinza: #808080;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body{
+    background: #808080;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    background: #141414;
+    color: #32CD32;
+}
+
+header nav a{
+    text-decoration: none;
+    color:var(--verde);
+    margin-right: 10px;
+    transition: 0.5s;
+}
+
+header nav a:hover{
+    color:white;
+}
+
+.contato{
+    background-color:var(--preto);
+    color: var(--verde);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 45px;
+}
+
+.contato a{
+    color: var(--verde);
+    font-family: 'Courier New', Courier, monospace;
+    transition: 0.5s;
+    margin: 5px;
+}
+.contato a:hover{
+    color:white
+}
+
+main div{
+    margin: 10px;
+    padding: 20px;
+}
+
+.intro{
+    margin-top: 20px;
+}
