@@ -56,6 +56,10 @@ header nav a:hover{
     color:white
 }
 
+.contato a i{
+    margin: 5px;
+}
+
 main div{
     margin: 10px;
     padding: 20px;
