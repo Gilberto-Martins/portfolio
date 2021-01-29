@@ -18,7 +18,7 @@
 
 body{
     font-family: 'Courier New', Courier, monospace;
-    background-image: url(img/img_fundo.jpg );
+    background-image: url(/img/img_fundo.jpeg);
 }
 
 header{
@@ -49,6 +49,12 @@ header nav a:hover{
     align-items: center;
     justify-content: space-between;
     height: 45px;
+    padding-right: 20px;
+
+    /*para colar o footer em */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .contato a{
@@ -71,13 +77,22 @@ main div{
 }
 
 .skills{
-    background: #4F4F4F;
+    background:var(--preto);
     border: 1px solid black;
     
     margin: 5px;
+
+    position: fixed;
+    bottom: 10%;
+    width: 100%;
 }
 
 .skills h3{
     text-align: center;
     margin-top: 5;
+    color: var(--verde);
+}
+
+.item img{
+    height: 170px;
 }
